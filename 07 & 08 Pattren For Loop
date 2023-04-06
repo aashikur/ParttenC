@@ -1,0 +1,33 @@
+#include <stdio.h>
+
+int main()
+{
+
+    for(int a =1; a<=5; a++)         // Question 7
+    {
+        for(int b = 1; b<=a; b++)
+        {
+            printf("%d ", b);
+        }
+        printf("\n");
+    }
+
+
+
+    printf("\n\n"); // Break Point
+
+
+
+    int cnt=0;                        // Question 8
+    for(int a = 1 ; a<=4; a++)
+    {
+        for(int b = 1; b<=a; b++)
+        {
+            cnt++;
+            printf("%d ",cnt);
+        }
+        printf("\n");
+    }
+
+    return 0;
+}
