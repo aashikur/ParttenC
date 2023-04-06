@@ -1,0 +1,21 @@
+#include<stdio.h>
+
+int main()
+{
+    for(int a = 1; a<=5; a++) // Mother // Increment
+    {
+        for(int b =1; b<=a; b++) // Child // Increment Space
+        {
+            printf(" ");
+        }
+        for(int b = 5; b>=a; b--) // Child // Decrement Star
+        {
+            printf("* ");
+        }
+        printf("\n");
+    }
+
+
+
+    return 0;
+}
