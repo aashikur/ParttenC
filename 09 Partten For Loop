@@ -1,0 +1,28 @@
+#include <stdio.h>
+
+int main()
+{
+
+                                                                 
+    for(int a = 1 ; a<=5; a=a+1)          // Mother
+    {
+
+        for(int b = 1; b<=a; b++)          // Child
+        {
+
+            printf("%d ",b);
+        }
+
+        for(int c = a-1; c>=1 ; c--)       // Child
+        {
+            printf("%d ",c);
+        }
+
+        printf("\n");
+    }
+
+
+
+
+    return 0;
+}
