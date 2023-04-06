@@ -1,0 +1,24 @@
+#include <stdio.h>
+
+int main()
+{
+
+
+    for(int a = 5; a>=1; a--) // Loop Mother // Decrement
+    {
+        for(int b = 1; b<=a; b++) // Loop Increment
+        {
+            printf("%2d",b);
+        }
+        for(int b = a-1; b>=1; b--) // Loop Increment
+        {
+            printf("%2d",b);
+        }
+        printf("\n");
+    }
+
+
+
+
+    return 0;
+}
