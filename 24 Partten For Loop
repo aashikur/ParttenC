@@ -1,0 +1,38 @@
+#include <stdio.h>
+
+int main()
+{
+
+       printf("\n\First Solution\n\n"); // Break
+    //========================================
+    // Question 24
+
+
+    for(int a = 7; a>=1; a--)    // Mother
+    {
+        for(int b = 1; b<=a; b++)
+        {
+            if(a%2==1)              // Skipping The Odd "a"
+                printf("%d ",b);
+        }
+        if(a%2==1)                  // Skipping The Odd "a"
+            printf("\n");
+    }
+
+
+    printf("\nSecond Solution\n\n");
+
+
+
+    for(int a = 7 ; a>=1; a=a-2) // Skipping or Jumping 2 Value
+    {                               // 7 > 5 > 3 > 2 > 1
+        for(int b = 1; b<=a; b++)
+        {
+            printf("%d ",b);
+        }
+        printf("\n");
+    }
+
+
+    return 0;
+}
