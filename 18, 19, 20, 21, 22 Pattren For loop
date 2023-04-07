@@ -1,0 +1,92 @@
+#include <stdio.h>
+
+int main()
+{
+
+    printf("\n\n"); // Break
+    //========================================
+    // Question 18
+
+
+    for(int i = 2 ; i<=10; i=i+2)
+    {
+        for(int j = 2 ; j<=i; j=j+2)
+        {
+            printf("%d ",j);
+        }
+        printf("\n");
+    }
+
+
+
+
+    printf("\n\n"); // Break
+    //========================================
+    // Question 19
+
+
+
+    for(int i = 10; i>=2 ; i=i-2)
+    {
+        for(int j = 2; j<=i; j=j+2)
+        {
+            printf("%d ",j);
+        }
+        printf("\n");
+    }
+
+
+
+    printf("\n\n"); // Break
+    //========================================
+    // Question 20
+
+
+    for(int a = 5 ; a>=1; a--)
+    {
+        for(int b = a; b>=1; b--)
+        {
+            printf("%d ", b);
+        }
+        printf("\n");
+    }
+
+
+
+
+
+
+    printf("\n\n"); // Break
+    //========================================
+    // Question 21
+
+
+    for(int a = 1; a<=5; a++)
+    {
+        for(int b = 5 ; b>=a; b--)
+        {
+            printf("%d ",b);
+        }
+        printf("\n");
+    }
+
+
+    printf("\n\n"); // Break
+    //========================================
+    // Question 22
+
+
+    for(int a = 5; a>=1; a--)
+    {
+        for(int x = 5; x>=a; x--)
+        {
+            printf("%d ",x);
+        }
+        printf("\n");
+    }
+
+
+
+
+    return 0;
+}
