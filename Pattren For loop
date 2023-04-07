@@ -1,0 +1,43 @@
+#include <stdio.h>
+
+int main()
+{
+
+    //Question 14
+    for(int a = 1; a<=5; a++)
+    {
+        for(int b = a; b<=5; b++)
+        {
+            printf("%d ",b);
+        }
+        printf("\n");
+    }
+
+
+
+    /* Question 15 */ printf("\n");
+    for(int a = 5; a>=1 ; a--)
+    {
+        for(int b = 1; b<=a; b++)
+        {
+            printf("%d ",a);
+        }
+        printf("\n");
+    }
+
+
+
+    /* Question 16 */ printf("\n");
+    for(int a = 1; a<=10; a=a+2)
+    {
+        for(int b=1; b<=a; b=b+2)
+        {
+            printf("%d ",b);
+        }
+        printf("\n");
+    }
+
+
+
+    return 0;
+}
