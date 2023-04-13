@@ -440,6 +440,83 @@ int main()
     }
 
 
+    printf("\n\n");
+    // Pattern 28 ===================================
+
+
+    for(int i = n; i>=1; i--)
+    {
+        sum = 0;
+        for(int s = i; s >= 1; s--)
+        {
+            sum+=s; // s = 15 , 15 - i +1 = 11
+        }
+
+        for(int j = sum - i+1; j<=sum ; j++)
+        {
+            printf("%d",j);
+            if(j<sum)
+                printf(" ");
+        }
+        printf("\n");
+    }
+
+
+        printf("\n\n");
+    // Pattern 29 ===================================
+
+
+    for(int i = 1; i<=n; i++){
+                sum = 0;
+    for(int s = n; s>=1; s--)
+    {
+        sum+=s;
+    }
+
+        for(int j = 1; j<=i; j++)
+        {
+            printf("%d",sum);
+            if(j<i)
+                printf(" ");
+            sum--;
+        }
+        printf("\n");
+    }
+
+
+
+        printf("\n\n");
+    // Pattern 30 ===================================
+
+    for(int i = 1; i<=n; i++)
+    {
+        for(int j = 1; j<=i; j++)
+        {
+            printf("%d",j);
+            if(j<i)
+                printf(" ");
+        }
+        for(int j = i-1; j>=1; j--)
+        {
+            printf(" ");
+            printf("%d",j);
+        }
+        printf("\n");
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
