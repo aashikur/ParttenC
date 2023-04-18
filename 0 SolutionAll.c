@@ -70,26 +70,26 @@ int main()
     printf("%40d\n",5);
     // Pattern 05 ===================================
 
-   for(int i = 1; i<=n; i++)
-   {
-       for(int j = 1; j<=i; j++)
-       {
-           printf("*");
-           if(j<i)
+    for(int i = 1; i<=n; i++)
+    {
+        for(int j = 1; j<=i; j++)
+        {
+            printf("*");
+            if(j<i)
                 printf(" ");
-       }
-       printf("\n");
-   }
-   for(int i = 1; i<=n-1; i++)
-   {
-       for(int j = 1; j<=n-i; j++)
-       {
-           printf("*");
-           if(j< n-1)
+        }
+        printf("\n");
+    }
+    for(int i = 1; i<=n-1; i++)
+    {
+        for(int j = 1; j<=n-i; j++)
+        {
+            printf("*");
+            if(j< n-1)
                 printf(" ");
-       }
-       printf("\n");
-   }
+        }
+        printf("\n");
+    }
 
 
     printf("%40d\n",6);
@@ -170,7 +170,7 @@ int main()
     }
 
 
-        printf("\n%40d\n",11);
+    printf("\n%40d\n",11);
     // Pattern 11 ===================================
 
     for(int i = 1; i<=n; i++)
@@ -186,7 +186,7 @@ int main()
     }
 
 
-        printf("\n%40d\n",12);
+    printf("\n%40d\n",12);
     // Pattern 12 ===================================
 
     for(int i = 1; i<=n; i++)
@@ -201,7 +201,7 @@ int main()
     }
 
 
-        printf("\n%40d\n",13);
+    printf("\n%40d\n",13);
     // Pattern 13 ===================================
 
     for(int i = 1; i<=n; i++)
@@ -216,7 +216,7 @@ int main()
     }
 
 
-        printf("\n%40d\n",14);
+    printf("\n%40d\n",14);
     // Pattern 14 ===================================
 
     for(int i = 1; i<=n; i++)
@@ -231,7 +231,7 @@ int main()
     }
 
 
-        printf("\n%40d\n",15);
+    printf("\n%40d\n",15);
     // Pattern 15 ===================================
 
     for(int i  = 1; i<=n; i++)
@@ -246,7 +246,7 @@ int main()
     }
 
 
-        printf("\n%40d\n",16);
+    printf("\n%40d\n",16);
     // Pattern 16 ===================================
 
     for(int i = n; i>=1; i--)
@@ -260,7 +260,7 @@ int main()
         printf("\n");
     }
 
-        printf("\n%40d\n",17);
+    printf("\n%40d\n",17);
     // Pattern 17 ===================================
 
     for(int i = 1; i<=n; i++)
@@ -276,7 +276,7 @@ int main()
 
 
 
-        printf("\n%40d\n",18);
+    printf("\n%40d\n",18);
     // Pattern 18 ===================================
 
     for(int i = n; i>= 1; i--)
@@ -291,7 +291,7 @@ int main()
     }
 
 
-        printf("\n%40d\n",19);
+    printf("\n%40d\n",19);
     // Pattern 19 ===================================
 
     for(int i = 1; i<=n; i++)
@@ -306,11 +306,11 @@ int main()
     }
 
 
-        printf("\n%40d\n",20);
+    printf("\n%40d\n",20);
     // Pattern 20 ===================================
 
 
-    for(int i = 1;i<=n; i++)
+    for(int i = 1; i<=n; i++)
     {
         for(int j = 1; j<=i; j++)
         {
@@ -323,7 +323,7 @@ int main()
 
 
 
-        printf("\n%40d\n",21);
+    printf("\n%40d\n",21);
     // Pattern 21 ===================================
 
     for(int i = 1; i<=n; i++)
@@ -339,7 +339,7 @@ int main()
 
 
 
-        printf("\n%40d\n",22);
+    printf("\n%40d\n",22);
     // Pattern 22 ===================================
 
     for(int i = 1; i<=n; i++)
@@ -354,7 +354,7 @@ int main()
     }
 
 
-        printf("\n%40d\n",23);
+    printf("\n%40d\n",23);
     // Pattern 23 ===================================
 
     for(int i = 1; i<=n; i++)
@@ -368,7 +368,7 @@ int main()
         printf("\n");
     }
 
-        printf("\n%40d\n",24);
+    printf("\n%40d\n",24);
     // Pattern 24 ===================================
 
     for(int i = 1; i<=n; i++)
@@ -382,7 +382,7 @@ int main()
         printf("\n");
     }
 
-        printf("\n%40d\n",25);
+    printf("\n%40d\n",25);
     // Pattern 25 ===================================
 
 
@@ -401,7 +401,7 @@ int main()
     }
 
 
-        printf("\n%40d\n",26);
+    printf("\n%40d\n",26);
     // Pattern 26 ===================================
 
     for(int i = 1; i<=n; i++)
@@ -422,7 +422,7 @@ int main()
     }
 
 
-        printf("\n%40d\n",27);
+    printf("\n%40d\n",27);
     // Pattern 27 ===================================
 
     int sum = 0;
@@ -444,7 +444,7 @@ int main()
     }
 
 
-        printf("\n%40d\n",28);
+    printf("\n%40d\n",28);
     // Pattern 28 ===================================
 
 
@@ -466,13 +466,13 @@ int main()
     }
 
 
-        printf("\n%40d\n",29);
+    printf("\n%40d\n",29);
     // Pattern 29 ===================================
 
-        printf("\nPrint Error 29. No. \n -------------");
+    printf("\nPrint Error 29. No. \n -------------");
 
 
-        printf("\n%40d\n",30);
+    printf("\n%40d\n",30);
     // Pattern 30 ===================================
 
     for(int i = 1; i<=n; i++)
@@ -492,9 +492,10 @@ int main()
     }
 
 
-        printf("\n%40d\n",31);
+    printf("\n%40d\n",31);
     // Pattern 31 ===================================
-    for(int i = 1; i<=n; i++){
+    for(int i = 1; i<=n; i++)
+    {
         for(int j = 1; j<=n-i+1; j++)
         {
             printf("%d ",j);
@@ -509,7 +510,7 @@ int main()
 
 
 
-        printf("\n%40d\n",32);
+    printf("\n%40d\n",32);
     // Pattern 32 ===================================
 
     for(int i = n; i>=1; i--)
@@ -527,24 +528,24 @@ int main()
 
 
 
-        printf("\n%40d\n",33);
+    printf("\n%40d\n",33);
     // Pattern 33 ===================================
 
-        for(int i = 1; i<=n; i++)
+    for(int i = 1; i<=n; i++)
+    {
+        for(int j = i; j<=n; j++)
         {
-            for(int j = i; j<=n; j++)
-            {
-                printf("%d ",j);
-            }
-            for(int j = n-1; j>= i; j--)
-            {
-                printf("%d ",j);
-            }
-            printf("\n");
+            printf("%d ",j);
         }
+        for(int j = n-1; j>= i; j--)
+        {
+            printf("%d ",j);
+        }
+        printf("\n");
+    }
 
 
-        printf("\n%40d\n",34);
+    printf("\n%40d\n",34);
     // Pattern 34 ===================================
 
     for(int i = 1; i<=n*2; i=i+2)
@@ -587,7 +588,7 @@ int main()
 
 
 
-        printf("\n%40d\n",37);
+    printf("\n%40d\n",37);
     // Pattern 34 ===================================
 
     for(int i = 1; i<=n*2; i=i+2)
@@ -601,7 +602,7 @@ int main()
 
 
 
-        printf("\n%40d\n",38);
+    printf("\n%40d\n",38);
     // Pattern 34 ===================================
 
     printf("Error\n");
@@ -617,10 +618,11 @@ int main()
         {
             printf("  ");
         }
-        for(int j = n-i+1; j<=5; j++){
+        for(int j = n-i+1; j<=5; j++)
+        {
             printf("%c ",j+64);
         }
-        for(int j = n-1; j>=n-i+1;j--)
+        for(int j = n-1; j>=n-i+1; j--)
         {
             printf("%c ",j+64);
         }
@@ -633,10 +635,11 @@ int main()
         {
             printf("  ");
         }
-        for(int j = i+1; j<=n; j++){
+        for(int j = i+1; j<=n; j++)
+        {
             printf("%c ",j+64);
         }
-        for(int j = n-1; j>=i+1;j--)
+        for(int j = n-1; j>=i+1; j--)
         {
             printf("%c ",j+64);
         }
@@ -646,10 +649,76 @@ int main()
 
 
 
+    printf("\n%40d\n",41);
+    // Pattern ===================================
+
+    int m1 = 0, m2 = 1, m3, fibo;
+
+    for(int i = 1; i<=n; i++)
+    {
+        for(int j = 1; j<=i; j++)
+        {
+            m3 = m1+m2;
+            m1 = m2;
+            m2 = m3;
+            printf("%d ",m1);
+        }
+        printf("\n");
+    }
 
 
 
 
+
+    printf("\n%40d\n",42);
+    // Pattern ===================================
+
+    for(int i =  n*2-1; i>=1; i-=2)
+    {
+        for(int j = 1; j < i; j+=2)
+        {
+            printf("  ");
+        }
+        for(int j = i ; j<=  n*2-1; j+=2)
+        {
+            printf("%d ",j);
+        }
+        printf("\n");
+    }
+
+
+    printf("\n%40d\n",43);
+    // Pattern ===================================
+
+    for(int i = 1; i<=n*2; i+=2)
+    {
+        for(int j = 1; j<=n*2 - i; j+=2)
+        {
+            printf(" ");
+        }
+        for(int j = 1 ; j<=i; j+=2)
+        {
+            printf("%d ",i);
+        }
+        printf("\n");
+    }
+
+
+    printf("\n%40d\n",44);
+    // Pattern ===================================
+
+    for(int i = 0; i<=n*2-2; i+=2)
+    {
+        for(int j = 0; j<=n*2 - 2 - i; j+=2)
+        {
+            printf("  ");
+        }
+        for(int j = 0 ; j<=i; j+=2)
+        {
+            printf("%d ",i);
+        }
+        printf("\n");
+    }
 
 
 
